@@ -23,3 +23,7 @@ This script will delete **all** of your tweets and the action cannot be reversed
 
 ### Donate
 Donate to the creator here -> [Buy Me a Coffee](https://buymeacoffee.com/mayurbhoi)
+
+### Other Credits 
+Photo by [Brett Jordan](https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/twitter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+  
