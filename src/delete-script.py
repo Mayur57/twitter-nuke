@@ -1,3 +1,15 @@
+"""
+This script will delete all of the tweets in the specified account.
+
+
+You will need developer level access to get a Twitter API tokens to use this
+script, you can do so by registering a twitter application at https://developer.twitter.com/
+
+@requirements: Python 3.10+, Tweepy (https://docs.tweepy.org/en/stable/)
+@Original_author: Mayur Bhoi
+@Co-author (forked by): <your-name-here>
+"""
+
 import json
 import tweepy
 import threading
@@ -18,7 +30,8 @@ SKIPPED_TWEETS = ARCHIVE_PATH + "/data/skipped_tweets.txt"
 # DO NOT edit these if you want to delete all of your tweets without
 # any filters. Otherwise, for example, if you want to skip tweets
 # having likes more 30 and retweets more than 5, you change the below
-# values as LIKES=30 and RETWEETS=5
+# values as:
+# -> LIKES=30, RETWEETS=5
 RETWEETS=0
 LIKES=40
 
