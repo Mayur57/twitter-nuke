@@ -12,7 +12,11 @@ The script uses multithreading to speed up the deletion process by simultaneousl
 - Your deleted tweets and skipped tweets will be outputted in corresponding files.
 
 ### Usage
-- Download your Twitter data by following [these steps](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive). 
+- Apply for Twitter Developer program and generate your API keys and tokens.
+- Download your Twitter data by following [these steps](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive).
+- Download the latest release of the script as a ZIP file and decompress it to a folder.
+- Navigate to the folder you just unpacked your archive to by typing the following command in your terminal: `cd PATH/TO/YOUR/FOLDER`
+- Install necessary Python packages by running `pip3 -r requirements.txt` in terminal.
 - Edit the script with your Twitter API tokens and your preferences.
 - Run it in your terminal using `python3 deleter-script.py`
 
