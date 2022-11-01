@@ -3,6 +3,9 @@
 # Twitter Nuke
 Quickly and efficiently delete your entire tweet history with the help of your Twitter archive without worrying about the puny and pointless 3200 tweet limit imposed by Twitter.
 
+> **Note** 
+> The project has been outdated and unsupported for quite a while. It might not work as intended. If you would like to work on improving support and resolving issues, please take a look at the issues tab and post a PR!
+
 ### About
 The script uses multithreading to speed up the deletion process by simultaneously running multiple instances of the Twitter API. By utilising this modification the speed can be improved upto **~50-60 times** the single threaded performance (~1 tweet per sec).
 
