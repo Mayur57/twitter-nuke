@@ -3,7 +3,7 @@
 # Twitter Nuke
 Quickly and efficiently delete your entire tweet history with the help of your Twitter archive without worrying about the puny and pointless 3200 tweet limit imposed by Twitter.
 
-> **Note** 
+> **Warning** 
 > The project has been outdated and unsupported for quite a while. It might not work as intended. If you would like to work on improving support and resolving issues, please take a look at the issues tab and post a PR!
 
 ### About
@@ -23,7 +23,8 @@ The script uses multithreading to speed up the deletion process by simultaneousl
 - Edit the script with your Twitter API tokens and your preferences.
 - Run it in your terminal using `python3 deleter-script.py`
 
-(**Note:** Post September 2020, due to the high-profile Twitter attack of July 2020, the Twitter data might take anywhere from 24 hours to 4 days to be generated. Keep this in mind.)
+> **Note** 
+> Post September 2020, due to the high-profile Twitter attack of July 2020, the Twitter data might take anywhere from 24 hours to 4 days to be generated. Keep this in mind.
 
 ### Caution
 This script will delete **all** of your tweets and the action cannot be reversed. The script **DOES NOT** ask for your confirmation before executing the delete command. Run this script only if you are absolutely sure about it. The creator is not responsible for any loss in data and all the liabilities are held by the person running this script.
