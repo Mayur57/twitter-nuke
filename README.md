@@ -21,7 +21,7 @@ The script uses multithreading to speed up the deletion process by simultaneousl
 - Navigate to the folder you just unpacked your archive to by typing the following command in your terminal: `cd PATH/TO/YOUR/FOLDER`
 - Install necessary Python packages by running `pip3 install -r requirements.txt` in terminal.
 - Edit the script with your Twitter API tokens and your preferences.
-- Run it in your terminal using `python3 deleter-script.py`
+- Run it in your terminal using `python3 delete-script.py`
 
 > **Note** 
 > Post September 2020, due to the high-profile Twitter attack of July 2020, the Twitter data might take anywhere from 24 hours to 4 days to be generated. Keep this in mind.
