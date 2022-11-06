@@ -69,7 +69,7 @@ def parse_json(JSON_FILE, LIKES, RETWEETS=0):
     
     for tweet in data:
         if(int(tweet["tweet"]["favorite_count"]) > LIKES and int(tweet["tweet"]["retweet_count"]) > RETWEETS):
-            f = open(SKIPPED_TWEETS, "w")
+            f = open(SKIPPED_TWEETS, "a")
             f.write("Tweets skipped:\n\n"
                     + "ID: "+tweet["tweet"]["id"] + "\n"
                     + "Tweet: "+tweet["tweet"]["full_text"]+"\n"
@@ -79,7 +79,7 @@ def parse_json(JSON_FILE, LIKES, RETWEETS=0):
             skipped_tweets.append(str(tweet["tweet"]["id"]))
 
         else:
-            f = open(DELETED_TWEETS, "w")
+            f = open(DELETED_TWEETS, "a")
             f.write("Tweets deleted:\n\n"
                     + "ID: "+tweet["tweet"]["id"] + "\n"
                     + "Tweet: "+tweet["tweet"]["full_text"]+"\n"
